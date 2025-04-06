@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: #b59a9a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+.red-title {
+    color: red;
+}
+
+.blue-italic {
+    color: #00aaff;
+    font-style: italic;
+}
+
+.blue-text {
+    color: #00aaff;
+}
+
+.full-screen-bg {
+    background-image: url('/static/#');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.nav-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.nav-center a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #741111;
+    transition: color 0.3s ease;
+}
+
+.nav-center a:hover {
+    color: #007BFF;
+}
+
+.моти-photo {
+            width: 250px;       /* устанавливает одинаковую ширину для всех изображений */
+            height: auto;       /* высота подстраивается пропорционально */
+            margin: 10px;       /* отступы для эстетики */
+            object-fit: cover;  /* изображение сохраняет пропорции, обрезаясь при необходимости */
+}
+
+.container p {
+    max-width: 800px;               /* Ограничивает ширину текста для лучшей читаемости */
+    margin: 20px auto;              /* Центрирует текст и добавляет вертикальные отступы */
+    padding: 15px;                  /* Добавляет внутренние отступы для эстетики */
+    text-align: justify;            /* Выравнивает текст по ширине */
+    text-indent: 30px;              /* Отступ первой строки абзаца */
+    line-height: 1.6;               /* Увеличенный межстрочный интервал для удобства чтения */
+    font-family: 'Georgia', serif;  /* Элегантный шрифт для основного текста */
+}
+
